@@ -1,0 +1,9 @@
+
+import joblib
+from xgboost import XGBClassifier
+
+model = XGBClassifier()
+# Train your model here...
+
+# Save the model to a file
+joblib.dump(model, 'best_xgb_model.pkl')
